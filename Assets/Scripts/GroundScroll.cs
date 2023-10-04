@@ -5,7 +5,7 @@ using UnityEngine;
 public class GroundScroll : MonoBehaviour
 {
     public Vector3 oriPos;
-    public float Speed = 3;
+    public float Speed = 8;
 
     // Start is called before the first frame update
     void Start()

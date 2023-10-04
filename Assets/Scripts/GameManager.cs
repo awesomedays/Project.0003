@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    public float gameSpeed = 3;
+    public float gameSpeed = 8;
     public bool isPlay = true;
 
     void Awake()
