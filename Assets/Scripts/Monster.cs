@@ -5,8 +5,13 @@ using UnityEngine;
 public class Monster : MonoBehaviour
 {
     public int HP = 100;
+    int oriHP;
     public float monSpeed = 8;
     public Vector2 StartPositon;
+
+    // 동전
+    public ItemFx prefabItem;
+    public Transform target;
 
     // Start is called before the first frame update
     void Start()
